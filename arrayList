@@ -1,0 +1,34 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javacollections;
+
+/**
+ *
+ * @author ryahh
+ */
+// Arraylist <Object to store> Arraylist object = new Arraylist <Object to store> ();
+
+// Arraylist<students> studentList = new Arraylist<students>();
+
+import java.util.ArrayList;
+
+public class arrayList{
+	
+	public static void main(String[] args){
+		ArrayList myFriendsList = new ArrayList();
+		
+		// Add vaules to Array //
+		myFriendsList.add("Allison");
+		myFriendsList.add("Shane");
+		myFriendsList.add("Ben");
+		myFriendsList.add("David");
+		myFriendsList.add("Austin");
+		
+		
+                System.out.println(myFriendsList);
+		
+	}
+}
