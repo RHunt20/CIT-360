@@ -1,0 +1,20 @@
+
+
+// hibernate-mapping container //
+<hibernate-mapping>
+
+	<class name="sample.practice.Student" table="STUDENTS">
+	
+	
+		<id name="id" type"int" column = "ID"
+			<generator class="increment"></generator>
+		</id>
+		
+		<property name"studentID" type="int"      column="ID"></property>
+		<property name"firstName" type="String"   column="FIRSTNAME"></property>
+		<property name"lastName"  type="String"   column="LASTNAME"></property>
+		<property name"email"     type="string"   column="EMAIL"></property>
+	
+	</class>
+	
+</hibernate-mapping>
